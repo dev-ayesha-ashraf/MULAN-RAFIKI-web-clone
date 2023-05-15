@@ -1,0 +1,140 @@
+/* .typewriter{
+  width:22vw;
+}
+
+.typewriter h1 {
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 0.5s steps(3, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+} */
+  
+ /* *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+} 
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #343f4f;
+}  
+.wrapper{
+  display: inline-flex;
+}
+.static-text{
+  font-size: 60px;
+  color: #fff;
+  font-weight: 400;
+}
+.type-writer{
+  margin-left: 15px;
+  line-height: 80px;
+  height: 75px;
+  /* background-color: red; 
+  overflow: hidden;
+
+}
+.type-writer li{
+  list-style: none;
+  font-size: 60px;
+  font-weight: 500;
+  top: 0;
+  color: #fc6d6d;
+  position: relative;
+  animation: slide 6s steps(4) infinite;
+}
+.type-writer li::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #343f4f;
+  border-left: 2px solid #fc6d6d;
+  animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing{
+  100%{
+    left: 100%;
+    margin: 0 -35px 0 35px;
+
+  }
+}
+@keyframes slide {
+100%{
+  top: -320px;
+}
+}
+.header {
+  width: 250px;
+  height: 50px;
+  background-color: #ccc;
+  transition: width 0.3s ease-in-out;
+} 
+
+/* Styles to apply when the checkbox is checked */
+/* #nav-toggle:checked + .header {
+  width: 100px;
+}
+
+#nav-toggle:checked + .header h1 {
+  display: none;
+} */
+.responsive-header{
+  width: 100vw;
+  border: 2px solid blue;
+  color: #11d6f0;
+  height: 55px;
+  position: fixed;
+  background: #fff;
+  z-index: 9999;
+  width: 100%;
+  padding: 12px 15px;
+  display: block;
+  box-shadow: 0 3px 6px 3px rgba(0, 0, 0, .06);
+}
+.name{
+  font-size: 16px;
+  font-weight: 500;
+  color: #11d6f0;
+}
+.name img{
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 5px;
+  border: 3px solid rgba(17, 214, 240, 0.30);
+}
+.responsive-icons{
+  position: absolute;
+  right: 60px;
+  top: 13px;
+  font-size: 30px;
+}
+
+#check:checked ~ .name{
+  border: 2px solid #fc6d6d;
+}
+/* #check:checked ~ .header{
+  background-color: white;
+}  */
+body{
+  background-color: #fc6d6d !important;
+}
