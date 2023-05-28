@@ -40,8 +40,8 @@
         type="text/css">
     <!-- font-awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-
+    <!-- box icons font  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -85,7 +85,7 @@
             <div class="navbar">
                 <ul>
                     <li><a href="#home"><i class="fas fa-home"></i> Home </a></li>
-                    <li><a href="#about"><i class="fas fa-user-tie"></i>About me</a></li>
+                    <li><a href="#about-me"><i class="fas fa-user-tie"></i>About me</a></li>
                     <li><a href="#resume"><i class="fas fa-award"></i>Resume</a></li>
                     <li><a href="#portfolio"><i class="fas fa-business-time"></i>Portfolio </a></li>
                     <li><a href="#blog"><i class="fas fa-book-reader"></i> Blog </a></li>
@@ -96,7 +96,7 @@
         </nav>
     </header>
     <section>
-        <div class="hero-page">
+        <div class="hero-page" id="home">
             <div class="inner">
                 <div class="mask"></div>
                 <div class="row">
@@ -129,13 +129,13 @@
         <div class="about-inner">
             <div class="about-title">
                 <div class="about-main">
-                    <h4>ABOUT ME</h4>
+                    <h4 class="heading-four">ABOUT ME</h4>
                 </div>
             </div>
             <div class="about-row">
                 <div class="about-column">
                     <h3>
-                        Mulan Rafkiki
+                        Mulan Rafiki
                     </h3>
                     <span class="about-map">
                         <i class="fas thin fa-location-dot"></i>United States, America
@@ -152,10 +152,37 @@
                     </p>
                     <p class="about-content"></p>
                     <ul class="about-list">
-                        <li class="list-column"></li>
+                        <li class="list-column">
+                            <div class="icon-info">
+                                <i class="fas solid fa-briefcase"></i>
+                            </div>
+                            <div class="details-info">
+                                <h6>5+ Years Job</h6>
+
+                                <div>Experience</div>
+                            </div>
+
                         </li>
-                        <li class="list-column"></li>
-                        <li class="list-column"></li>
+                        <li class="list-column">
+                            <div class="icon-info"><i class="fas solid fa-layer-group"></i></div>
+                            <div class="details-info">
+                                <h6>300+ Projects</h6>
+                                <div>Completed</div>
+                            </div>
+
+                        </li>
+                        <li class="list-column">
+                            <div class="icon-info"><i class="fas thin fa-handshake"></i></div>
+
+                            <div class="details-info">
+                                <h6>120+ Meetings</h6>
+                                <div>Successful</div>
+                            </div>
+
+
+
+
+                        </li>
                     </ul>
                 </div>
                 <div class="about-column">
@@ -165,7 +192,107 @@
                 </div>
             </div>
         </div>
+        <!-- about services    -->
+        <div class="about-block">
+            <div class="about-head">
+                <h4><span>What Actually I Do</span>
+                    My Services</h4>
+            </div>
+            <div class="special-row">
+                <div class="special-columns">
+                    <div class="services-list">
+                        <div class="service-block">
+                            <div class="service-icon">
+                                <i><img src="./1.png" alt=""></i>
+                            </div>
+                            <div class="services-text">
+                                <h4>web development</h4>
+                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                            </div>
+                        </div>
+                        <div class="service-block">
+                            <div class="service-icon">
+                                <i><img src="./2.png" alt=""></i>
+                            </div>
+                            
+                            <div class="services-text">
+                                <h4>graphic design</h4>
+                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="special-columns">
+                    <div class="services-list">
+                        <div class="service-block">
+                            <div class="service-icon">
+                                <i><img src="./3.png" alt=""></i>
+                            </div>
+                            <div class="services-text">
+                                <h4>embeded system</h4>
+                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio</p>
+                            </div>
+                        </div>
+                        <div class="service-block">
+                            <div class="service-icon">
+                                <i><img src="./4.png" alt=""></i>
+                            </div>
+                            <div class="services-text">
+                                <h4>SEO specialist</h4>
+                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- vedio section  -->
+        <div class="video-section">
+<div class="overlay">
+    <div class="overlay-container">
+        <div class="video-row">
+            <div class="video-column">
+                <div class="video-title">
+                    <h6>
+                        WHY YOU HIRE ME?
+                    </h6>
+                    <h2>I'M THE BEST FRONT END EXPERT IN THE MARKETPLACE</h2>
+                </div>
+            </div>
+            <div class="video-column">
+                <div class="pulse-icon">
+                    <div class="icon-wrap">
+                        <a href="https://www.youtube.com/watch?v=uaZEeU6NzaM">
+                            <i class="fa fa-play"></i> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+
+        <!-- fun facts  -->
+        <div class="fun-facts">
+<div class="fact-head">
+<h4>
+    <span>fun</span>
+    facts
+</h4>
+</div>
+        </div>
+
+<!-- about clients  -->
+<div class="about-clients">
+    <div class="fact-head">
+        <h4>
+            <span>My</span>
+            Clients
+        </h4>
+        </div>
+</div>
     </section>
 </body>
 
